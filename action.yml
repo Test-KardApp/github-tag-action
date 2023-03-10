@@ -3,7 +3,7 @@ description: 'Bump and push git tag on merge'
 author: 'Nick Sjostrom'
 runs:
   using: 'docker'
-  image: 'artifactory.karolinska.se/github-actions-snapshot/github-tag-action:latest'
+  image: 'docker://artifactory.karolinska.se/github-actions-snapshot/github-tag-action:latest'
 outputs:
   new_tag:
     description: 'Generated tag'
