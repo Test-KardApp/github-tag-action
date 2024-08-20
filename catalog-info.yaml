@@ -3,7 +3,7 @@ kind: Component
 metadata:
   name: github-tag-action
   annotations:
-    github.com/project-slug: kardapp/github-tag-action
+    github.com/project-slug: Test-KardApp/github-tag-action
 spec:
   type: other
   lifecycle: unknown
